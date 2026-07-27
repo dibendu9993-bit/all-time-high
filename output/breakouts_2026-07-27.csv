@@ -1,0 +1,5 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+163.95,10.59,2.56,5.55,True,149.3,2016-09-12,3605,27.12,MBAPL,Madhya Bharat Agro Products Limited,NSE,MBAPL.NS
+1713.4,7.01,3.28,2.65,True,1610.0,2016-12-19,3507,22.99,LAURUSLABS,Laurus Labs Limited,NSE,LAURUSLABS.NS
+2014.9,3.83,2.85,3.41,True,1950.0,2023-07-17,1106,10.92,LLOYDSME,Lloyds Metals And Energy Limited,NSE,LLOYDSME.NS
+167.65,3.46,1.57,4.53,True,163.95,2017-02-27,3437,5.42,KRISHANA,Krishana Phoschem Limited,NSE,KRISHANA.NS

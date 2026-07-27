@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Dalal Street Breakout Desk</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B1220; --panel:#121A2B; --panel-2:#0F1728; --hair:#26324A;
+    --paper:#EDEAE1; --paper-dim:#A9B1C3; --brass:#C89B3C; --brass-dim:#8C6E2E;
+    --up:#3FA34D; --down:#C4463A;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--ink);color:var(--paper);font-family:'IBM Plex Sans',sans-serif;}
+  .masthead{background:linear-gradient(180deg,#141D30,#0F1728);border-bottom:1px solid var(--hair);padding:22px 20px 0;}
+  .masthead h1{font-family:'Fraunces',serif;font-weight:700;font-size:clamp(22px,4vw,34px);margin:0;letter-spacing:.3px;}
+  .masthead .sub{color:var(--paper-dim);font-size:13px;margin:4px 0 18px;font-family:'IBM Plex Mono',monospace;}
+  .tape{overflow:hidden;white-space:nowrap;background:repeating-linear-gradient(90deg,var(--brass) 0 2px,transparent 2px 10px),var(--panel-2);
+        border-top:1px dashed var(--brass-dim);border-bottom:1px dashed var(--brass-dim);padding:8px 0;}
+  .tape span{display:inline-block;padding-left:100%;animation:scroll 32s linear infinite;font-family:'IBM Plex Mono',monospace;font-size:13px;}
+  .tape b.up{color:var(--up);} .tape b.down{color:var(--down);}
+  @keyframes scroll{0%{transform:translateX(0);}100%{transform:translateX(-100%);}}
+  .stats{display:flex;flex-wrap:wrap;gap:12px;padding:18px 20px;}
+  .stat{background:var(--panel);border:1px solid var(--hair);border-left:3px solid var(--brass);border-radius:4px;padding:12px 16px;min-width:150px;flex:1;}
+  .stat .n{font-family:'Fraunces',serif;font-size:26px;font-weight:600;}
+  .stat .l{color:var(--paper-dim);font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin-top:2px;}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;padding:0 20px 16px;}
+  .controls input, .controls select{background:var(--panel);border:1px solid var(--hair);color:var(--paper);
+        padding:9px 12px;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:13px;}
+  .controls input[type=text]{flex:1;min-width:160px;}
+  table{width:100%;border-collapse:collapse;font-family:'IBM Plex Mono',monospace;font-size:13px;}
+  thead th{text-align:left;color:var(--brass);border-bottom:1px solid var(--hair);padding:10px 14px;
+        cursor:pointer;white-space:nowrap;font-weight:600;text-transform:uppercase;font-size:11px;letter-spacing:.06em;}
+  tbody td{padding:10px 14px;border-bottom:1px solid var(--hair);}
+  tbody tr:hover{background:var(--panel-2);}
+  tbody tr.ath td:first-child{box-shadow:inset 3px 0 0 var(--brass);}
+  .badge{background:var(--brass);color:#231A08;font-size:10px;font-weight:700;padding:2px 7px;border-radius:10px;letter-spacing:.04em;}
+  .up{color:var(--up);} .down{color:var(--down);}
+  .wrap{max-width:1080px;margin:0 auto;padding-bottom:60px;}
+  .foot{color:var(--paper-dim);font-size:11.5px;padding:22px 20px;border-top:1px solid var(--hair);line-height:1.6;}
+  .empty{padding:40px 20px;color:var(--paper-dim);font-family:'IBM Plex Mono',monospace;}
+  @media(max-width:640px){ table thead{display:none;} tbody tr{display:block;border-bottom:2px solid var(--hair);padding:8px 0;}
+    tbody td{display:flex;justify-content:space-between;border-bottom:none;padding:4px 14px;}
+    tbody td::before{content:attr(data-label);color:var(--paper-dim);font-size:11px;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="masthead">
+    <h1>Dalal Street Breakout Desk</h1>
+    <div class="sub" id="genAt">generated --</div>
+  </div>
+  <div class="tape"><span id="tapeContent">loading tape...</span></div>
+  <div class="stats" id="statCards"></div>
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search symbol or name...">
+    <select id="exFilter"><option value="ALL">All exchanges</option><option value="NSE">NSE</option><option value="BSE">BSE</option></select>
+    <input type="number" id="minPct" placeholder="Min % chg">
+    <input type="number" id="minVolx" placeholder="Min vol x">
+  </div>
+  <table>
+    <thead><tr>
+      <th data-k="symbol">Symbol</th><th data-k="exchange">Exch</th><th data-k="last_close">LTP</th>
+      <th data-k="pct_change">%Chg</th><th data-k="volume_ratio">Vol x</th><th data-k="atr_pct">ATR%</th>
+      <th data-k="listing_date">Listed</th><th data-k="momentum_score">Score</th><th>ATH</th>
+    </tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <div class="empty" id="emptyMsg" style="display:none;">No breakout stocks matched today's thresholds.</div>
+  <div class="foot">
+    Data: Yahoo Finance (delayed ~15-20 min), no broker API. "All-time high" is bounded by
+    the price history available for each ticker -- long-listed BSE-only small caps may have
+    shorter backfilled history. This is a scan output, not investment advice.
+  </div>
+</div>
+<script>
+const DATA = {"generated_at": "Mon, 27 Jul 2026 \u00b7 17:20 IST", "scanned": 1448, "hits": [{"last_close": 163.95, "pct_change": 10.59, "volume_ratio": 2.56, "atr_pct": 5.55, "is_new_ath": true, "prior_ath": 149.3, "listing_date": "2016-09-12", "days_listed": 3605, "momentum_score": 27.12, "symbol": "MBAPL", "name": "Madhya Bharat Agro Products Limited", "exchange": "NSE", "ticker": "MBAPL.NS"}, {"last_close": 1713.4, "pct_change": 7.01, "volume_ratio": 3.28, "atr_pct": 2.65, "is_new_ath": true, "prior_ath": 1610.0, "listing_date": "2016-12-19", "days_listed": 3507, "momentum_score": 22.99, "symbol": "LAURUSLABS", "name": "Laurus Labs Limited", "exchange": "NSE", "ticker": "LAURUSLABS.NS"}, {"last_close": 2014.9, "pct_change": 3.83, "volume_ratio": 2.85, "atr_pct": 3.41, "is_new_ath": true, "prior_ath": 1950.0, "listing_date": "2023-07-17", "days_listed": 1106, "momentum_score": 10.92, "symbol": "LLOYDSME", "name": "Lloyds Metals And Energy Limited", "exchange": "NSE", "ticker": "LLOYDSME.NS"}, {"last_close": 167.65, "pct_change": 3.46, "volume_ratio": 1.57, "atr_pct": 4.53, "is_new_ath": true, "prior_ath": 163.95, "listing_date": "2017-02-27", "days_listed": 3437, "momentum_score": 5.42, "symbol": "KRISHANA", "name": "Krishana Phoschem Limited", "exchange": "NSE", "ticker": "KRISHANA.NS"}], "thresholds": {"min_pct": 3.0, "min_volx": 1.5, "min_atr": 2.5}};
+document.getElementById('genAt').textContent = 'Scan run: ' + DATA.generated_at;
+
+const cards = [
+  {n: DATA.scanned, l:'Stocks scanned'},
+  {n: DATA.hits.length, l:'New ATH breakouts'},
+  {n: (DATA.hits.reduce((a,h)=>a+h.pct_change,0)/(DATA.hits.length||1)).toFixed(1)+'%', l:'Avg move'},
+  {n: 'min '+DATA.thresholds.min_pct+'% / '+DATA.thresholds.min_volx+'x / ATR '+DATA.thresholds.min_atr+'%', l:'Active filters'},
+];
+document.getElementById('statCards').innerHTML = cards.map(c=>`<div class="stat"><div class="n">${c.n}</div><div class="l">${c.l}</div></div>`).join('');
+
+const tapeItems = DATA.hits.slice(0,15).map(h=>`${h.symbol} <b class="${h.pct_change>=0?'up':'down'}">${h.pct_change>=0?'+':''}${h.pct_change}%</b>`);
+document.getElementById('tapeContent').innerHTML = tapeItems.length ? tapeItems.join(' &nbsp;&bull;&nbsp; ') : 'No breakout candidates today.';
+
+let sortKey = 'momentum_score', sortDir = -1;
+function renderRows(){
+  const q = document.getElementById('search').value.toLowerCase();
+  const ex = document.getElementById('exFilter').value;
+  const minPct = parseFloat(document.getElementById('minPct').value) || -Infinity;
+  const minVolx = parseFloat(document.getElementById('minVolx').value) || -Infinity;
+
+  let rows = DATA.hits.filter(h =>
+    (h.symbol.toLowerCase().includes(q) || h.name.toLowerCase().includes(q)) &&
+    (ex === 'ALL' || h.exchange === ex) &&
+    h.pct_change >= minPct && h.volume_ratio >= minVolx
+  );
+  rows.sort((a,b)=> (a[sortKey]>b[sortKey]?1:-1) * sortDir);
+
+  document.getElementById('emptyMsg').style.display = rows.length ? 'none' : 'block';
+  document.getElementById('rows').innerHTML = rows.map(h => `
+    <tr class="ath">
+      <td data-label="Symbol"><b>${h.symbol}</b><br><span style="color:var(--paper-dim);font-size:11px;">${h.name}</span></td>
+      <td data-label="Exch">${h.exchange}</td>
+      <td data-label="LTP">\u20b9${h.last_close}</td>
+      <td data-label="%Chg" class="${h.pct_change>=0?'up':'down'}">${h.pct_change>=0?'+':''}${h.pct_change}%</td>
+      <td data-label="Vol x">${h.volume_ratio}x</td>
+      <td data-label="ATR%">${h.atr_pct}%</td>
+      <td data-label="Listed">${h.listing_date.slice(0,4)}</td>
+      <td data-label="Score">${h.momentum_score}</td>
+      <td data-label="ATH"><span class="badge">ATH</span></td>
+    </tr>`).join('');
+}
+document.querySelectorAll('thead th[data-k]').forEach(th=>{
+  th.addEventListener('click', ()=>{
+    const k = th.dataset.k;
+    sortDir = (sortKey === k) ? sortDir * -1 : -1;
+    sortKey = k;
+    renderRows();
+  });
+});
+['search','exFilter','minPct','minVolx'].forEach(id=>document.getElementById(id).addEventListener('input', renderRows));
+renderRows();
+</script>
+</body>
+</html>
