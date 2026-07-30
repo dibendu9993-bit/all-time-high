@@ -1,0 +1,3 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+180.05,9.42,2.7,4.95,True,174.0,2017-02-27,3440,25.47,KRISHANA,Krishana Phoschem Limited,NSE,KRISHANA.NS
+290.75,4.21,4.41,3.0,True,287.0,2000-05-10,9577,18.59,KTKBANK,The Karnataka Bank Limited,NSE,KTKBANK.NS
