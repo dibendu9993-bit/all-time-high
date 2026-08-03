@@ -1,0 +1,7 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+525.9,10.74,5.18,3.26,True,476.3,2018-04-18,3029,53.7,KAPSTON,Kapston Services Limited,NSE,KAPSTON.NS
+475.3,10.1,6.81,3.8,True,439.95,2026-04-23,102,50.5,MAJESAUT,Majestic Auto Limited,NSE,MAJESAUT.NS
+649.3,8.78,5.64,4.9,True,624.4,2021-04-27,1924,43.89,DEEPINDS,Deep Industries Limited,NSE,DEEPINDS.NS
+424.35,4.96,3.93,2.61,True,413.0,2017-09-01,3258,19.48,ABCAPITAL,Aditya Birla Capital Limited,NSE,ABCAPITAL.NS
+652.8,7.9,2.29,4.57,True,633.05,2025-12-01,245,18.06,PAUSHAKLTD,Paushak Limited,NSE,PAUSHAKLTD.NS
+727.6,3.8,2.99,2.7,True,714.75,2012-03-19,5250,11.36,MINDACORP,Minda Corporation Limited,NSE,MINDACORP.NS
