@@ -1,0 +1,6 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+732.6,20.0,29.0,4.91,True,638.5,2026-03-05,153,100.0,OMNI,Omnitech Engineering Limited,NSE,OMNI.NS
+11847.5,20.0,56.79,3.35,True,10965.0,2026-04-22,105,99.99,ELANTAS,Elantas Beck India Limited,NSE,ELANTAS.NS
+637.55,15.64,50.59,4.01,True,578.5,2023-11-15,994,78.22,ASKAUTOLTD,ASK Automotive Limited,NSE,ASKAUTOLTD.NS
+1817.0,6.67,4.88,3.43,True,1727.0,2023-12-27,952,32.53,HAPPYFORGE,Happy Forgings Limited,NSE,HAPPYFORGE.NS
+2549.2,5.38,1.83,4.32,True,2445.0,2005-12-20,7533,9.82,KERNEX,Kernex Microsystems (India) Limited,NSE,KERNEX.NS
