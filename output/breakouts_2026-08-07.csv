@@ -1,0 +1,9 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+1965.3,10.75,5.4,4.83,True,1871.9,2023-04-18,1207,53.76,AVALON,Avalon Technologies Limited,NSE,AVALON.NS
+96.88,9.52,5.44,4.43,True,95.1,2016-07-20,3670,47.59,LLOYDSENGG,LLOYDS ENGINEERING WORKS LIMITED,NSE,LLOYDSENGG.NS
+168.5,8.71,6.89,3.21,True,157.99,2002-07-01,8803,43.55,MOTHERSON,Samvardhana Motherson International Limited,NSE,MOTHERSON.NS
+22855.0,6.09,4.13,3.71,True,22490.0,2008-10-13,6507,25.12,NEULANDLAB,Neuland Laboratories Limited,NSE,NEULANDLAB.NS
+336.9,4.68,4.19,4.77,True,333.0,2018-10-26,2842,19.57,MARINE,Marine Electricals (India) Limited,NSE,MARINE.NS
+46.73,6.93,2.7,6.18,True,45.09,2026-04-22,107,18.72,AMBALALSA,Ambalal Sarabhai Enterprises Limited,NSE,AMBALALSA.NS
+2580.3,4.07,2.87,2.88,True,2555.3,2006-10-19,7232,11.66,FIEMIND,Fiem Industries Limited,NSE,FIEMIND.NS
+1658.0,4.35,2.08,2.68,True,1636.8,1996-01-15,11162,9.06,AUROPHARMA,Aurobindo Pharma Limited,NSE,AUROPHARMA.NS
