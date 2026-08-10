@@ -1,0 +1,10 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+3134.1,20.0,18.45,4.79,True,2890.3,2026-04-20,112,99.99,KPL,Kwality Pharmaceuticals Limited,NSE,KPL.NS
+269.03,19.66,5.91,6.4,True,228.0,2024-01-23,930,98.3,COMSYN,Commercial Syn Bags Limited,NSE,COMSYN.NS
+622.2,12.55,25.01,4.45,True,560.0,2024-03-13,880,62.77,JGCHEM,J.G.Chemicals Limited,NSE,JGCHEM.NS
+50.6,10.0,3.08,4.45,True,47.07,2026-04-20,112,30.76,ACSTECH,ACS Technologies Limited,NSE,ACSTECH.NS
+566.05,7.63,3.39,4.24,True,539.9,2018-04-18,3036,25.87,KAPSTON,Kapston Services Limited,NSE,KAPSTON.NS
+1824.3,8.52,2.92,5.49,True,1736.95,2018-03-22,3063,24.89,MACPOWER,Macpower CNC Machines Limited,NSE,MACPOWER.NS
+478.25,3.63,5.68,4.38,True,468.0,2002-07-01,8806,18.15,NRBBEARING,NRB Bearing Limited,NSE,NRBBEARING.NS
+48.27,3.3,2.85,6.23,True,47.4,2026-04-22,110,9.4,AMBALALSA,Ambalal Sarabhai Enterprises Limited,NSE,AMBALALSA.NS
+355.15,5.42,1.72,4.68,True,344.95,2018-10-26,2845,9.33,MARINE,Marine Electricals (India) Limited,NSE,MARINE.NS
