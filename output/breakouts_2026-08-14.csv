@@ -1,0 +1,7 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+76.81,20.0,17.41,5.3,True,75.0,2026-04-20,116,99.98,BI,Bilcare Limited,NSE,BI.NS
+1468.3,5.0,4.93,3.19,True,1405.0,2024-10-03,680,24.62,KRN,KRN Heat Exchanger and Refrigeration Limited,NSE,KRN.NS
+353.35,8.01,2.63,4.35,True,351.7,2012-05-17,5202,21.04,VSSL,Vardhman Special Steels Limited,NSE,VSSL.NS
+1301.05,6.67,2.9,4.39,True,1288.0,2023-03-14,1249,19.34,DIVGIITTS,Divgi Torqtransfer Systems Limited,NSE,DIVGIITTS.NS
+1433.9,3.25,3.65,3.58,True,1399.0,2024-08-08,736,11.87,RPEL,Raghav Productivity Enhancers Limited,NSE,RPEL.NS
+2089.6,4.08,1.92,3.9,True,2049.8,2023-12-27,961,7.83,HAPPYFORGE,Happy Forgings Limited,NSE,HAPPYFORGE.NS
