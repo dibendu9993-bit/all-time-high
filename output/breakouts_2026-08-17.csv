@@ -1,0 +1,9 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+92.17,20.0,55.22,5.42,True,76.81,2026-04-20,119,99.99,BI,Bilcare Limited,NSE,BI.NS
+1943.4,11.88,15.03,4.26,True,1868.0,2022-07-01,1508,59.38,MANORAMA,Manorama Industries Limited,NSE,MANORAMA.NS
+151.36,10.94,12.49,3.28,True,148.34,2025-12-30,230,54.72,GKSL,Gujarat Kidney And Super Speciality Limited,NSE,GKSL.NS
+2899.9,6.7,4.69,4.11,True,2735.0,2023-12-28,963,31.42,AZAD,Azad Engineering Limited,NSE,AZAD.NS
+1539.7,4.86,9.84,3.26,True,1468.3,2024-10-03,683,24.31,KRN,KRN Heat Exchanger and Refrigeration Limited,NSE,KRN.NS
+20047.0,5.95,3.13,3.26,True,19199.95,2002-07-01,8813,18.61,LMW,LMW Limited,NSE,LMW.NS
+2059.4,6.11,2.1,4.72,True,2004.0,2023-04-18,1217,12.83,AVALON,Avalon Technologies Limited,NSE,AVALON.NS
+2198.1,5.19,1.85,3.73,True,2105.0,2023-12-27,964,9.63,HAPPYFORGE,Happy Forgings Limited,NSE,HAPPYFORGE.NS
