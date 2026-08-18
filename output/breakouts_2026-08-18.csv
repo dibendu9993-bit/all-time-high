@@ -1,0 +1,9 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+101.38,9.99,10.69,5.37,True,92.17,2026-04-20,120,49.96,BI,Bilcare Limited,NSE,BI.NS
+463.05,8.89,6.83,5.16,True,444.15,2021-12-09,1713,44.44,ASIANENE,Asian Energy Services Limited,NSE,ASIANENE.NS
+4915.8,12.69,3.26,6.45,True,4490.0,2023-08-21,1093,41.31,YASHO,Yasho Industries Limited,NSE,YASHO.NS
+346.87,10.81,3.48,5.29,True,320.5,2002-07-01,8814,37.67,INDSWFTLAB,Ind-Swift Laboratories Limited,NSE,INDSWFTLAB.NS
+1983.6,11.35,3.28,6.08,True,1850.0,2018-03-22,3071,37.27,MACPOWER,Macpower CNC Machines Limited,NSE,MACPOWER.NS
+2197.3,6.7,2.37,4.9,True,2081.0,2023-04-18,1218,15.89,AVALON,Avalon Technologies Limited,NSE,AVALON.NS
+127.94,6.55,1.53,4.66,True,124.9,2023-06-12,1163,10.04,GHCLTEXTIL,GHCL Textiles Limited,NSE,GHCLTEXTIL.NS
+628.4,3.42,1.72,2.68,True,626.95,2025-11-10,281,5.89,LENSKART,Lenskart Solutions Limited,NSE,LENSKART.NS
