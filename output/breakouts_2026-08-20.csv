@@ -1,0 +1,6 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+767.1,17.87,41.68,4.78,True,691.8,2002-07-01,8816,89.35,BALRAMCHIN,Balrampur Chini Mills Limited,NSE,BALRAMCHIN.NS
+43.47,15.27,6.16,4.97,True,39.45,2026-02-16,185,76.37,KWIL,Kwality Wall's (India) Limited,NSE,KWIL.NS
+39.47,4.89,4.01,4.99,True,38.49,2026-06-02,79,19.59,MERCURYEV,Mercury Ev-Tech Limited,NSE,MERCURYEV.NS
+676.9,5.26,2.03,4.51,True,652.1,2005-06-24,7727,10.67,MANINDS,Man Industries (India) Limited,NSE,MANINDS.NS
+335.05,3.39,1.69,3.11,True,324.85,2000-05-10,9598,5.73,KTKBANK,The Karnataka Bank Limited,NSE,KTKBANK.NS
