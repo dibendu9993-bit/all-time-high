@@ -1,0 +1,6 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+48.35,11.23,11.36,5.03,True,44.3,2026-02-16,186,56.13,KWIL,Kwality Wall's (India) Limited,NSE,KWIL.NS
+4044.7,8.74,4.54,4.83,True,3775.0,2019-08-19,2559,39.7,KENNAMET,Kennametal India Limited,NSE,KENNAMET.NS
+978.4,7.78,6.31,3.74,True,925.65,2026-07-01,51,38.91,CORDELIA,Waterways Leisure Tourism Limited,NSE,CORDELIA.NS
+47.43,8.91,2.72,5.31,True,47.18,2015-01-15,4236,24.26,FCL,Fineotex Chemical Limited,NSE,FCL.NS
+715.4,5.69,2.85,4.62,True,699.0,2005-06-24,7728,16.19,MANINDS,Man Industries (India) Limited,NSE,MANINDS.NS
