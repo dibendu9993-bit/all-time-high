@@ -1,0 +1,4 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+1043.6,6.66,2.91,3.98,True,987.9,2026-07-01,54,19.36,CORDELIA,Waterways Leisure Tourism Limited,NSE,CORDELIA.NS
+49.62,4.62,2.88,5.43,True,47.9,2015-01-15,4239,13.3,FCL,Fineotex Chemical Limited,NSE,FCL.NS
+133.01,3.12,3.61,5.45,True,131.82,2025-06-11,439,11.27,BLUSPRING,Bluspring Enterprises Limited,NSE,BLUSPRING.NS
