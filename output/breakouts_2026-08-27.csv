@@ -1,0 +1,5 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+2177.9,13.04,31.0,3.43,True,2119.8,2023-12-21,980,65.19,INOXINDIA,INOX India Limited,NSE,INOXINDIA.NS
+1753.5,6.4,3.47,4.78,True,1667.0,2024-02-16,923,22.19,ENTERO,Entero Healthcare Solutions Limited,NSE,ENTERO.NS
+767.45,9.15,1.94,5.1,True,735.0,2005-06-24,7734,17.8,MANINDS,Man Industries (India) Limited,NSE,MANINDS.NS
+193.07,3.8,2.58,5.31,True,187.63,2010-11-08,5771,9.79,IOLCP,IOL Chemicals and Pharmaceuticals Limited,NSE,IOLCP.NS
