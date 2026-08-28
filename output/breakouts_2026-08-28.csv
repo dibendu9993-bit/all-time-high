@@ -1,0 +1,5 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+1616.3,8.09,3.33,3.54,True,1580.0,2025-05-06,479,26.91,ATHERENERG,Ather Energy Limited,NSE,ATHERENERG.NS
+406.8,8.74,2.01,4.75,True,395.0,2018-10-26,2863,17.54,MARINE,Marine Electricals (India) Limited,NSE,MARINE.NS
+130.79,4.33,1.63,4.35,True,129.44,2023-06-12,1173,7.07,GHCLTEXTIL,GHCL Textiles Limited,NSE,GHCLTEXTIL.NS
+1808.6,3.14,1.9,4.27,True,1786.4,2024-02-16,924,5.97,ENTERO,Entero Healthcare Solutions Limited,NSE,ENTERO.NS
