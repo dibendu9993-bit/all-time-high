@@ -1,0 +1,5 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+418.25,14.03,12.06,5.36,True,366.8,2012-05-09,5229,70.13,TBZ,Tribhovandas Bhimji Zaveri Limited,NSE,TBZ.NS
+520.65,4.24,4.41,5.18,True,499.45,2021-05-03,1948,18.74,MODISONLTD,MODISON LIMITED,NSE,MODISONLTD.NS
+109.3,5.0,2.69,3.51,True,107.0,2015-03-30,4174,13.42,MANAKSTEEL,Manaksia Steels Limited,NSE,MANAKSTEEL.NS
+352.3,3.92,3.31,5.09,True,350.0,2026-04-21,134,12.98,DAICHI,Dai-Ichi Karkaria Limited,NSE,DAICHI.NS
