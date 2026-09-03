@@ -1,0 +1,7 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+51.67,19.86,5.31,7.24,True,49.99,2026-04-20,136,99.28,BIRLAPREC,Birla Precision Technologies Limited,NSE,BIRLAPREC.NS
+744.85,7.38,3.71,5.21,True,720.0,2021-04-27,1955,27.42,DEEPINDS,Deep Industries Limited,NSE,DEEPINDS.NS
+369.75,4.95,4.4,4.69,True,355.95,2026-04-21,135,21.8,DAICHI,Dai-Ichi Karkaria Limited,NSE,DAICHI.NS
+2845.0,4.58,4.06,3.32,True,2750.0,2014-06-23,4455,18.59,CAPLIPOINT,Caplin Point Laboratories Limited,NSE,CAPLIPOINT.NS
+688.45,4.38,2.51,3.14,True,676.8,2015-03-05,4200,10.99,VISHNU,Vishnu Chemicals Limited,NSE,VISHNU.NS
+2641.6,4.68,1.53,4.69,True,2592.0,2000-06-23,9568,7.15,WELCORP,Welspun Corp Limited,NSE,WELCORP.NS
