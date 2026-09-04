@@ -1,0 +1,4 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+57.92,12.1,10.98,7.1,True,51.67,2026-04-20,137,60.48,BIRLAPREC,Birla Precision Technologies Limited,NSE,BIRLAPREC.NS
+786.45,5.59,2.77,5.16,True,749.0,2021-04-27,1956,15.5,DEEPINDS,Deep Industries Limited,NSE,DEEPINDS.NS
+418.0,4.01,3.29,4.41,True,411.5,2024-11-13,660,13.17,ACMESOLAR,Acme Solar Holdings Limited,NSE,ACMESOLAR.NS
