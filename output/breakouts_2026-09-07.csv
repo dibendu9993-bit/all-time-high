@@ -1,0 +1,5 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+4376.9,16.18,11.91,3.93,True,3968.8,2003-09-12,8396,80.91,CENTUM,Centum Electronics Limited,NSE,CENTUM.NS
+154.73,9.11,4.26,4.69,True,151.5,2022-11-21,1386,38.77,AEROENTER,Aeroflex Enterprises Limited,NSE,AEROENTER.NS
+56.66,10.0,2.82,5.46,True,52.21,2015-01-15,4253,28.23,FCL,Fineotex Chemical Limited,NSE,FCL.NS
+213.04,6.55,1.98,4.93,True,204.98,2010-11-08,5782,12.94,IOLCP,IOL Chemicals and Pharmaceuticals Limited,NSE,IOLCP.NS
