@@ -1,0 +1,12 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+372.75,18.96,10.16,7.06,True,330.0,2008-02-13,6782,94.78,CORDSCABLE,Cords Cable Industries Limited,NSE,CORDSCABLE.NS
+976.25,12.82,4.38,4.38,True,894.0,2023-07-10,1156,56.16,CYIENTDLM,Cyient DLM Limited,NSE,CYIENTDLM.NS
+1099.15,11.55,4.57,5.33,True,1078.25,2006-09-26,7287,52.81,ANTELOPUS,Antelopus Selan Energy Limited,NSE,ANTELOPUS.NS
+478.5,7.54,3.75,5.49,True,457.9,2018-04-26,3057,28.28,MMP,MMP Industries Limited,NSE,MMP.NS
+553.55,8.16,2.19,5.26,True,538.0,2021-12-09,1734,17.87,ASIANENE,Asian Energy Services Limited,NSE,ASIANENE.NS
+13891.0,6.41,2.76,4.17,True,13876.0,2026-04-22,139,17.68,ELANTAS,Elantas Beck India Limited,NSE,ELANTAS.NS
+84.28,3.13,4.09,3.98,True,83.99,2026-04-20,141,12.8,MENNPIS,Menon Pistons Limited,NSE,MENNPIS.NS
+58.44,3.14,3.13,5.25,True,56.66,2015-01-15,4254,9.83,FCL,Fineotex Chemical Limited,NSE,FCL.NS
+1176.75,6.43,1.5,3.81,True,1125.9,2025-12-23,259,9.65,KSHINTL,KSH International Limited,NSE,KSHINTL.NS
+818.7,4.27,1.76,4.79,True,799.5,2021-04-27,1960,7.51,DEEPINDS,Deep Industries Limited,NSE,DEEPINDS.NS
+656.45,3.46,1.62,5.38,True,643.7,2002-07-01,8835,5.61,KABRAEXTRU,Kabra Extrusion Technik Limited,NSE,KABRAEXTRU.NS
