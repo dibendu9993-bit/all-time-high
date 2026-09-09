@@ -1,0 +1,7 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+1108.2,18.29,10.0,4.54,True,984.75,2002-07-01,8836,91.45,BIL,Bhartiya International Limited,NSE,BIL.NS
+1313.3,17.02,75.71,4.24,True,1278.2,2002-07-01,8836,85.09,INDNIPPON,India Nippon Electricals Limited,NSE,INDNIPPON.NS
+1604.4,10.06,4.99,3.48,True,1489.7,2002-07-01,8836,50.2,CHENNPETRO,Chennai Petroleum Corporation Limited,NSE,CHENNPETRO.NS
+1169.4,6.39,5.19,5.6,True,1127.5,2006-09-26,7288,31.96,ANTELOPUS,Antelopus Selan Energy Limited,NSE,ANTELOPUS.NS
+39.19,4.98,1.57,5.77,True,39.1,2025-11-27,286,7.82,KSR,KSR Footwear Limited,NSE,KSR.NS
+354.3,3.58,1.95,3.19,True,350.0,2020-01-24,2420,7.0,ARTEMISMED,Artemis Medicare Services Limited,NSE,ARTEMISMED.NS
