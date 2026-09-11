@@ -1,0 +1,5 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+42.7,19.98,8.73,6.29,True,35.6,2026-04-20,144,99.89,GRAVISSHO,Graviss Hospitality Limited,NSE,GRAVISSHO.NS
+87.41,14.64,16.92,5.49,True,87.27,2011-08-29,5492,73.18,FILATEX,Filatex India Limited,NSE,FILATEX.NS
+19.57,11.57,27.03,4.41,True,18.0,2025-09-03,373,57.87,AHCL,Anlon Healthcare Limited,NSE,AHCL.NS
+14513.0,8.33,6.28,4.42,True,13999.0,2026-04-22,142,41.65,ELANTAS,Elantas Beck India Limited,NSE,ELANTAS.NS
