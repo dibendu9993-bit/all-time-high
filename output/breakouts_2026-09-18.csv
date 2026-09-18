@@ -1,0 +1,9 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+807.35,20.0,100.04,4.39,True,723.0,2026-04-20,151,99.99,ASTAR,Asian Star Company Limited,NSE,ASTAR.NS
+2537.7,13.8,8.54,6.5,True,2424.0,2023-04-18,1249,68.99,AVALON,Avalon Technologies Limited,NSE,AVALON.NS
+2104.5,9.52,4.79,5.8,True,2050.0,2018-03-22,3102,45.56,MACPOWER,Macpower CNC Machines Limited,NSE,MACPOWER.NS
+435.25,5.82,4.9,4.18,True,430.5,2024-11-13,674,28.51,ACMESOLAR,Acme Solar Holdings Limited,NSE,ACMESOLAR.NS
+18858.0,5.94,2.25,4.33,True,18465.0,2004-07-12,8103,13.37,APARINDS,Apar Industries Limited,NSE,APARINDS.NS
+1055.9,6.31,1.78,4.69,True,1028.5,2026-07-30,50,11.22,INDOMIM,INDO-MIM Limited,NSE,INDOMIM.NS
+72.27,3.05,2.96,3.98,True,71.85,2026-01-06,255,9.03,ALGOQUANT,Algoquant Fintech Limited,NSE,ALGOQUANT.NS
+707.2,4.01,2.09,3.03,True,703.5,2025-11-10,312,8.37,LENSKART,Lenskart Solutions Limited,NSE,LENSKART.NS
