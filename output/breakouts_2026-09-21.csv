@@ -1,0 +1,9 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+61.49,16.24,19.99,3.62,True,53.49,2026-04-21,153,81.19,FEDDERSHOL,Fedders Holding Limited,NSE,FEDDERSHOL.NS
+26.24,14.59,3.97,6.27,True,24.78,2025-09-03,383,57.84,AHCL,Anlon Healthcare Limited,NSE,AHCL.NS
+3844.9,10.77,3.77,6.08,True,3798.9,2026-04-20,154,40.61,KPL,Kwality Pharmaceuticals Limited,NSE,KPL.NS
+4739.2,9.37,3.06,5.16,True,4450.0,2003-09-12,8410,28.62,CENTUM,Centum Electronics Limited,NSE,CENTUM.NS
+361.4,7.96,3.4,5.47,True,342.0,2016-03-02,3855,27.05,BHAGERIA,Bhageria Industries Limited,NSE,BHAGERIA.NS
+102.2,8.92,2.75,5.67,True,94.5,2011-08-29,5502,24.54,FILATEX,Filatex India Limited,NSE,FILATEX.NS
+1161.45,10.0,1.97,4.74,True,1064.0,2026-07-30,53,19.68,INDOMIM,INDO-MIM Limited,NSE,INDOMIM.NS
+458.1,5.25,2.67,3.99,True,440.7,2024-11-13,677,14.04,ACMESOLAR,Acme Solar Holdings Limited,NSE,ACMESOLAR.NS
