@@ -1,0 +1,10 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+82.54,19.99,7.89,5.05,True,82.5,2026-08-18,36,99.94,EKI,EKI Energy Services Limited,NSE,EKI.NS
+986.7,16.1,7.17,6.53,True,944.0,2005-06-24,7761,80.48,MANINDS,Man Industries (India) Limited,NSE,MANINDS.NS
+100.14,11.12,30.06,8.13,True,92.4,2026-08-18,36,55.59,ANSALBU,Ansal Buildwell Limited,NSE,ANSALBU.NS
+278.56,8.76,4.67,4.91,True,270.89,2024-09-16,737,40.9,KROSS,Kross Limited,NSE,KROSS.NS
+4251.9,7.02,5.09,3.19,True,4155.5,2016-04-12,3816,35.09,KDDL,KDDL Limited,NSE,KDDL.NS
+1297.6,5.78,4.66,4.31,True,1260.0,2023-12-29,999,26.92,INNOVACAP,Innova Captab Limited,NSE,INNOVACAP.NS
+108.72,7.57,3.28,6.08,True,105.75,2011-08-29,5504,24.85,FILATEX,Filatex India Limited,NSE,FILATEX.NS
+577.55,6.29,3.51,3.16,True,547.95,2026-08-18,36,22.1,ALUFLUOR,Alufluoride Limited,NSE,ALUFLUOR.NS
+476.55,6.16,2.85,4.46,True,474.65,2005-09-12,7681,17.52,ICIL,Indo Count Industries Limited,NSE,ICIL.NS
