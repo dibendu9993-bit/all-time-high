@@ -1,0 +1,6 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+99.04,19.99,36.1,5.16,True,82.54,2026-08-18,37,99.95,EKI,EKI Energy Services Limited,NSE,EKI.NS
+712.15,8.49,13.53,3.5,True,711.7,2024-07-02,814,42.47,ABDL,Allied Blenders and Distillers Limited,NSE,ABDL.NS
+140.56,6.01,3.53,6.49,True,139.8,2025-06-11,470,21.19,BLUSPRING,Bluspring Enterprises Limited,NSE,BLUSPRING.NS
+620.45,3.99,14.97,4.65,True,601.65,2016-09-26,3650,19.94,GNA,GNA Axles Limited,NSE,GNA.NS
+806.1,10.0,1.63,6.31,True,741.9,2002-07-01,8851,16.31,KABRAEXTRU,Kabra Extrusion Technik Limited,NSE,KABRAEXTRU.NS
