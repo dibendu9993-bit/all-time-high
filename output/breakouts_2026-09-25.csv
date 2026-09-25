@@ -1,0 +1,9 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+1898.0,20.0,19.96,4.19,True,1649.0,2026-08-18,38,99.99,BPLPHARMA,Bharat Parenterals Limited,NSE,BPLPHARMA.NS
+152.24,10.0,12.32,5.56,True,143.69,2008-01-25,6818,50.0,CUBEXTUB,Cubex Tubings Limited,NSE,CUBEXTUB.NS
+394.6,9.72,4.21,5.62,True,368.2,2016-03-02,3859,40.92,BHAGERIA,Bhageria Industries Limited,NSE,BHAGERIA.NS
+1767.0,7.34,8.14,3.44,True,1717.0,2022-06-03,1575,36.69,AETHER,Aether Industries Limited,NSE,AETHER.NS
+1261.7,11.56,2.0,8.4,True,1218.3,2006-09-26,7304,23.07,ANTELOPUS,Antelopus Selan Energy Limited,NSE,ANTELOPUS.NS
+315.65,6.4,2.5,4.02,True,309.5,1997-09-16,10601,16.01,ENGINERSIN,Engineers India Limited,NSE,ENGINERSIN.NS
+31.51,9.98,1.59,7.82,True,31.29,2025-09-03,387,15.92,AHCL,Anlon Healthcare Limited,NSE,AHCL.NS
+13153.0,4.8,1.93,3.87,True,12966.0,2006-09-14,7316,9.27,DYNAMATECH,Dynamatic Technologies Limited,NSE,DYNAMATECH.NS
