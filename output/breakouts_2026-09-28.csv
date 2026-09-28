@@ -1,0 +1,7 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+40.96,17.13,136.38,4.69,True,39.15,2026-04-20,161,85.64,IWP,The Indian Wood Products Company Limited,NSE,IWP.NS
+2149.8,13.27,44.89,4.71,True,1898.0,2026-08-18,41,66.33,BPLPHARMA,Bharat Parenterals Limited,NSE,BPLPHARMA.NS
+604.7,6.95,7.23,4.23,True,581.75,2026-08-18,41,34.75,ALUFLUOR,Alufluoride Limited,NSE,ALUFLUOR.NS
+167.46,10.0,3.2,5.67,True,152.24,2008-01-25,6821,32.03,CUBEXTUB,Cubex Tubings Limited,NSE,CUBEXTUB.NS
+152.35,4.74,6.05,4.33,True,151.5,2026-08-18,41,23.68,HALDYNGL,Haldyn Glass Limited,NSE,HALDYNGL.NS
+2194.6,6.4,2.28,6.76,True,2175.0,2018-03-22,3112,14.63,MACPOWER,Macpower CNC Machines Limited,NSE,MACPOWER.NS
