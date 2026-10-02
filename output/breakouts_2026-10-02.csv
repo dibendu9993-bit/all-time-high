@@ -1,0 +1,4 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+194.27,8.5,58.82,5.48,True,186.99,2025-12-30,275,42.5,GKSL,Gujarat Kidney And Super Speciality Limited,NSE,GKSL.NS
+239.17,5.21,5.05,3.75,True,233.0,2003-12-04,8337,26.04,WELSPUNLIV,Welspun Living Limited,NSE,WELSPUNLIV.NS
+2307.3,3.41,2.25,5.13,True,2274.1,2002-07-01,8858,7.66,AXISCADES,AXISCADES Technologies Limited,NSE,AXISCADES.NS
