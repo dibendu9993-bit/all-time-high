@@ -1,0 +1,7 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+260.7,11.53,16.5,5.28,True,250.0,2010-09-29,5851,57.67,KILITCH,Kilitch Drugs (India) Limited,NSE,KILITCH.NS
+1799.8,8.36,4.8,3.65,True,1798.0,2022-06-03,1586,40.14,AETHER,Aether Industries Limited,NSE,AETHER.NS
+627.55,8.39,4.61,4.9,True,609.4,2026-07-30,68,38.73,LCL,Lohia Corp Limited,NSE,LCL.NS
+240.02,8.13,4.09,6.41,True,230.0,2025-12-03,307,33.29,JAYKAY,Jaykay Enterprises Limited,NSE,JAYKAY.NS
+452.0,5.36,3.55,2.8,True,446.5,1996-01-01,11236,19.02,BHEL,Bharat Heavy Electricals Limited,NSE,BHEL.NS
+3202.3,7.01,2.16,4.27,True,3175.0,2024-12-06,669,15.14,KMEW,Knowledge Marine & Engineering Works Limited,NSE,KMEW.NS
