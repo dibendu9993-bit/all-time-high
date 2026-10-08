@@ -1,0 +1,5 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+692.8,19.25,97.42,5.58,True,668.0,2026-08-18,51,96.26,INDOKEM,Indokem Limited,NSE,INDOKEM.NS
+97.27,10.61,17.34,6.6,True,88.57,2026-09-01,37,53.05,HTEL,Hy-Tech Engineers Limited,NSE,HTEL.NS
+19.77,9.89,23.88,4.49,True,17.99,2026-04-22,169,49.47,MMWL,Media Matrix Worldwide Limited,NSE,MMWL.NS
+107.52,4.33,8.79,4.64,True,106.2,2025-07-22,443,21.64,ARFIN,Arfin India Limited,NSE,ARFIN.NS
