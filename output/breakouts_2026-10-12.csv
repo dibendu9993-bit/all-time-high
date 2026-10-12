@@ -1,0 +1,4 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+917.9,19.99,14.61,5.01,True,822.0,2026-08-18,55,99.97,AMAL,Amal Limited,NSE,AMAL.NS
+22.92,8.94,11.62,5.24,True,21.6,2026-04-22,173,44.68,MMWL,Media Matrix Worldwide Limited,NSE,MMWL.NS
+157.01,6.84,13.77,6.83,True,153.0,2025-06-11,488,34.19,BLUSPRING,Bluspring Enterprises Limited,NSE,BLUSPRING.NS
