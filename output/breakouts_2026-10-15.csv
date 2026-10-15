@@ -1,0 +1,5 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+129.18,9.38,21.86,5.59,True,126.95,2025-10-03,377,46.91,JKIPL,Jinkushal Industries Limited,NSE,JKIPL.NS
+188.59,8.17,3.05,6.92,True,185.0,2026-08-18,58,24.92,BRAHMINFRA,Brahmaputra Infrastructure Limited,NSE,BRAHMINFRA.NS
+232.15,5.97,2.47,4.09,True,225.5,2026-04-02,196,14.77,AEROPLANE,Amir Chand Jagdish Kumar (Exports) Limited,NSE,AEROPLANE.NS
+172.68,3.87,3.55,7.07,True,168.0,2025-06-11,491,13.74,BLUSPRING,Bluspring Enterprises Limited,NSE,BLUSPRING.NS
