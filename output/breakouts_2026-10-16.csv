@@ -1,0 +1,5 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+361.9,18.97,17.81,6.05,True,339.8,2026-08-18,59,94.84,TAMBOLIIN,Tamboli Industries Limited,NSE,TAMBOLIIN.NS
+285.52,14.47,18.35,7.75,True,267.61,2026-09-09,37,72.37,MOMSBELIEF,Rays of Belief Limited,NSE,MOMSBELIEF.NS
+1060.6,5.91,1.71,4.26,True,1021.7,2023-01-06,1379,10.09,SKYGOLD,SKY GOLD AND DIAMONDS LIMITED,NSE,SKYGOLD.NS
+1198.5,3.59,1.59,3.08,True,1166.0,2021-06-24,1940,5.69,SHYAMMETL,Shyam Metalics and Energy Limited,NSE,SHYAMMETL.NS
