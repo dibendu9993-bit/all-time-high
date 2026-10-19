@@ -1,0 +1,4 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+297.55,9.39,8.93,6.22,True,283.0,2024-09-16,763,46.97,KROSS,Kross Limited,NSE,KROSS.NS
+370.05,4.05,4.43,3.09,True,365.9,1996-01-01,11249,17.95,KARURVYSYA,Karur Vysya Bank Limited,NSE,KARURVYSYA.NS
+269.55,7.34,1.86,5.97,True,260.5,2026-09-08,41,13.67,DEEPA,Deepa Jewellers Limited,NSE,DEEPA.NS
