@@ -1,0 +1,4 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+2405.5,7.2,5.02,3.09,True,2244.0,2016-12-19,3602,35.98,LAURUSLABS,Laurus Labs Limited,NSE,LAURUSLABS.NS
+1756.0,5.59,2.31,4.4,True,1744.0,2025-05-06,542,12.92,ATHERENERG,Ather Energy Limited,NSE,ATHERENERG.NS
+2045.0,4.23,2.47,3.64,True,2021.2,2004-08-30,8096,10.47,COFORGE,Coforge Limited,NSE,COFORGE.NS
