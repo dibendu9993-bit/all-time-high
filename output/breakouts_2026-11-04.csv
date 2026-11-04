@@ -1,0 +1,7 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+288.18,19.75,16.75,5.13,True,256.47,2026-09-15,50,98.73,HEGAM,HEG Advanced Materials Limited,NSE,HEGAM.NS
+1386.6,17.04,6.85,7.16,True,1328.0,2017-07-27,3387,85.21,CNL,Creative Newtech Limited,NSE,CNL.NS
+525.35,12.53,28.94,4.74,True,485.95,2005-09-12,7723,62.65,ICIL,Indo Count Industries Limited,NSE,ICIL.NS
+2160.4,9.3,8.09,3.61,True,2100.7,2024-07-10,847,46.49,EMCURE,Emcure Pharmaceuticals Limited,NSE,EMCURE.NS
+2405.8,5.91,6.63,3.54,True,2294.0,2025-12-15,324,29.54,CORONA,CORONA Remedies Limited,NSE,CORONA.NS
+240.29,3.63,1.79,4.0,True,240.24,2017-02-27,3537,6.48,KRISHANA,Krishana Phoschem Limited,NSE,KRISHANA.NS
