@@ -1,0 +1,8 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+1641.2,16.53,27.31,4.29,True,1600.0,2005-04-20,7876,82.65,GABRIEL,Gabriel India Limited,NSE,GABRIEL.NS
+228.37,16.49,18.89,6.69,True,209.95,2025-09-11,427,82.46,AMANTA,Amanta Healthcare Limited,NSE,AMANTA.NS
+384.8,8.7,3.91,3.83,True,368.95,2016-09-16,3709,34.02,CUPID,Cupid Limited,NSE,CUPID.NS
+6529.5,6.53,14.89,3.21,True,6444.0,2010-03-02,6099,32.67,KOVAI,Kovai Medical Center & Hospital Limited,NSE,KOVAI.NS
+1010.5,9.42,2.87,4.88,True,1002.4,2023-01-30,1382,26.99,AARTIPHARM,Aarti Pharmalabs Limited,NSE,AARTIPHARM.NS
+2314.4,3.67,4.06,3.77,True,2280.0,2024-07-10,855,14.9,EMCURE,Emcure Pharmaceuticals Limited,NSE,EMCURE.NS
+366.0,4.72,1.93,3.72,True,352.5,2000-05-10,9682,9.12,KTKBANK,The Karnataka Bank Limited,NSE,KTKBANK.NS
