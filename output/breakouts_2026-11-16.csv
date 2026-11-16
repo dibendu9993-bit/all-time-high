@@ -1,0 +1,6 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+874.25,13.8,5.91,3.99,True,790.0,2026-08-18,90,68.99,ARYAMAN,Aryaman Financial Services Limited,NSE,ARYAMAN.NS
+478.05,6.01,7.0,5.18,True,470.0,2026-10-01,46,30.05,AONESTEELS,A-One Steels India Limited,NSE,AONESTEELS.NS
+66.99,3.08,5.45,6.13,True,66.0,2026-08-18,90,15.39,KANCOTEA,Kanco Tea & Industries Limited,NSE,KANCOTEA.NS
+1165.05,4.94,2.6,3.36,True,1114.8,2002-07-01,8904,12.84,ASAHIINDIA,Asahi India Glass Limited,NSE,ASAHIINDIA.NS
+784.25,3.5,1.72,3.78,True,768.0,2024-07-02,867,6.04,ABDL,Allied Blenders and Distillers Limited,NSE,ABDL.NS
