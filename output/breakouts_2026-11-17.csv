@@ -1,0 +1,4 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+4560.4,16.52,33.99,4.97,True,4368.8,2016-04-12,3871,82.62,KDDL,KDDL Limited,NSE,KDDL.NS
+194.52,15.63,49.04,4.69,True,185.5,2026-08-18,91,78.17,KMCSHIL,K M C Speciality Hospitals (India) Limited,NSE,KMCSHIL.NS
+69.07,3.1,25.19,6.12,True,68.1,2026-08-18,91,15.52,KANCOTEA,Kanco Tea & Industries Limited,NSE,KANCOTEA.NS
