@@ -1,0 +1,3 @@
+last_close,pct_change,volume_ratio,atr_pct,is_new_ath,prior_ath,listing_date,days_listed,momentum_score,symbol,name,exchange,ticker
+2440.0,10.51,6.08,6.85,True,2295.1,2026-08-18,92,52.54,BPLPHARMA,Bharat Parenterals Limited,NSE,BPLPHARMA.NS
+4876.8,6.94,13.07,5.7,True,4653.0,2016-04-12,3872,34.69,KDDL,KDDL Limited,NSE,KDDL.NS
